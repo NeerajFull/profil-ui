@@ -1,8 +1,4 @@
-
-
 import React from "react";
-import ActivityChart from "./components/ActivityChart";
-import CircularProgressBar from "./components/CircularProgressBar";
 import Dashboard from "./components/Dashboard";
 import Sidebar from "./components/Sidebar";
 import Header from "./components/Header";

@@ -5,7 +5,7 @@ import 'react-circular-progressbar/dist/styles.css';
 
 const CircularProgressBar = ({ percentage }) => {
     return (
-        <div className='min-h-screen' style={{ width: 150, height: 150 }}>
+        <div style={{ width: 150, height: 150 }}>
             <CircularProgressbarWithChildren value={percentage}>
 
                 <div className='text-white text-sm flex flex-col'>

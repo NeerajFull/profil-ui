@@ -3,7 +3,7 @@ import { FaHome, FaChartPie, FaCog } from "react-icons/fa";
 
 const Sidebar = () => {
   return (
-    <aside className="w-64 bg-gray-800 p-4">
+    <aside className="hidden md:block w-64 bg-gray-800 p-4">
       <nav className="flex flex-col space-y-4">
         <a href="/" className="flex items-center space-x-2 text-lg">
           <FaHome />
